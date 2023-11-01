@@ -164,10 +164,10 @@ a:visited {
 
 label {
     display: block;
-    height: 15px;
+    height: 11px;
     width: 60px;
     position: relative;
-    transform: rotate(90deg) translate(550px, 20px);
+    transform: rotate(90deg) translate(490px, 20px);
 }
 
 span.slide {
@@ -181,8 +181,8 @@ span.slide {
 span.slide:before {
     position: absolute;
     content: "";
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background: #505050;
     border-radius: 50%;
     top: -2px;
@@ -198,23 +198,23 @@ span.slide:before {
 
 .txtLight {
 position: relative;
-transform: rotate(270deg) translate(-520px, 1px);
+transform: rotate(270deg) translate(-460px, 1px);
 color: #868686;
 font-weight: bold;
-font-size: 1rem;
+font-size: 0.8rem;
 transition: 0.5s;
 }
 
 .txtDark {
     position: relative;
-    transform: rotate(270deg) translate(-620px, 1px);
+    transform: rotate(270deg) translate(-550px, 1px);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #505050;
 }
 
 #ChangeTheme:checked + span.slide:before {
-transform: translatex(40px);
+transform: translatex(45px);
 }
 /* if dark-mode class is added set this background */
 body.dark-mode {
