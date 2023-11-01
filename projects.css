@@ -80,7 +80,7 @@ h1 {
 
 .icon {
     margin-top: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .menu {
@@ -258,7 +258,7 @@ body.dark-mode {
 
 @media screen and (max-width:768px) {
    .icon {
-    font-size: 2rem;
+    font-size: 1.8rem;
    }
 }
 

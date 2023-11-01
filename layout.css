@@ -79,7 +79,7 @@ h1 {
 
 .icon {
     margin-top: 0.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .menu {
@@ -198,39 +198,6 @@ a:visited {
     font-size: 1rem;
 }
 
-
-@media screen and (max-width:460px) {
-    body, .menu {
-        font-size: 0.9rem;
-    }
-    
-    .page-header {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 0.5rem;
-        flex-shrink: 0;
-    }
-
-    .title {
-        margin-left: 0.5rem;
-    }
-
-    .skills {
-        margin-top: 2rem;
-    }
-    
-    .menu {
-        margin-top: 1rem;
-    }
-}
-
-@media screen and (max-width:768px) {
-   .icon {
-    font-size: 2rem;
-   }
-}
-
 #ChangeTheme {
     width: 0;
     height: 0;
@@ -309,4 +276,34 @@ body.dark-mode {
     color: #f5f5f5;
 }
   
+@media screen and (max-width:460px) {
+    body, .menu {
+        font-size: 0.9rem;
+    }
+    
+    .page-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+    }
 
+    .title {
+        margin-left: 0.5rem;
+    }
+
+    .skills {
+        margin-top: 2rem;
+    }
+    
+    .menu {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+   .icon {
+    font-size: 1.8rem;
+   }
+}
