@@ -50,7 +50,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-shrink: 0;
-    padding-top: 2rem;
     font-family: 'Prosto One', sans-serif;
 }
 
@@ -79,7 +78,7 @@ h1 {
 
 .icon {
     margin-top: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .menu {
@@ -91,7 +90,7 @@ h1 {
 .menuItem {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     text-decoration: none;
 }
 
@@ -119,6 +118,7 @@ h1 {
 .aboutMe {
     white-space: nowrap;
     line-height: 1.2;
+    font-size: 1.1rem;
 }
 
 .aboutMe span{
@@ -304,6 +304,6 @@ body.dark-mode {
 
 @media screen and (max-width:768px) {
    .icon {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
    }
 }
