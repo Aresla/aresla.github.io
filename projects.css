@@ -237,6 +237,10 @@ body.dark-mode {
     body, .menu {
         font-size: 0.9rem;
     }
+
+    .main {
+        padding: 1rem;
+    }
     
     .page-header {
         display: flex;
