@@ -16,7 +16,7 @@ body {
     height: 100vh;
     content: "";
     /* you can control opacity of noise  */
-    opacity: .1;  
+    opacity: .1;
     z-index: 1000;
     pointer-events: none;
     background: url(assets/noise.gif) ;
@@ -152,7 +152,7 @@ a[href] {
 
 .discription {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #ChangeTheme {
@@ -241,7 +241,7 @@ body.dark-mode {
     .main {
         padding: 1rem;
     }
-    
+
     .page-header {
         display: flex;
         flex-direction: column-reverse;
@@ -253,7 +253,7 @@ body.dark-mode {
     .title {
         margin-left: 0.5rem;
     }
-   
+
     .menu {
         margin-top: 1rem;
     }
@@ -265,4 +265,4 @@ body.dark-mode {
    }
 }
 
-  
+
